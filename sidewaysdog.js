@@ -1,3 +1,14 @@
+function mobile() {
+	
+	if (x.matches) {
+		window.location.replace("https://dialixx.github.io/hellscape_web/mobiledog.html");
+	}
+
+}
+
+var x = window.matchMedia("(max-width: 700px)");
+mobile(x);
+
 function seizure() {
 	
 	var links = document.getElementsByClassName("linkanim");
