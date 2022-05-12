@@ -1,0 +1,125 @@
+body {
+	background-color: #181818;
+	background-image: url("media/bowlbg.png");
+	background-repeat: repeat;
+	color: #aaaaaa;
+}
+
+#container {
+	width: 70%;
+	height: 2000px;
+	background-color: #2e2e2e;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	border: black 3px solid;
+}
+
+#sidebar {
+	width: 15%;
+	height: 100%;
+	border-right: black 3px solid;
+	float: left;
+}
+
+#logo {
+	width: 100%;
+	padding-bottom: 10px;
+	animation-name: logo;
+	animation-duration: 16s;
+	animation-iteration-count: infinite;
+	text-align: center;
+	border-bottom: black 3px solid;
+}
+
+#sidebarlink1 {
+	animation-name: linkcolor;
+	animation-duration: 16s;
+	animation-iteration-count: infinite;
+}
+
+#sidebarlink2 {
+	animation-name: linkcolor2;
+	animation-duration: 16s;
+	animation-iteration-count: infinite;
+}
+
+#content {
+}
+
+.sneakylink {
+	color: #aaaaaa;
+}
+
+#stew {
+	animation-name: steweemama;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	text-decoration: none;
+}
+
+#dogvid {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	display: block;
+	
+}
+
+#hellscape {
+	animation-name: linkcolor;
+	animation-duration: 16s;
+	animation-iteration-count: infinite;
+	font-size: 72pt;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+
+#clicker {
+	border-top: black 3px solid;
+	border-bottom: black 3px solid;
+}
+
+#utility {
+	height: 300px;
+	width: 30%;
+	border-left: solid 3px black;
+	background-color: #aaaaaa;
+}
+
+@keyframes logo {
+	0%   {background-color: #ff0000; color: #00ffff;}
+	16%  {background-color: #ffff00; color: #0000ff;}
+	33%  {background-color: #00ff00; color: #ff00ff;}
+	49%  {background-color: #00ffff; color: #ff0000;}
+	66%  {background-color: #0000ff; color: #ffff00;}
+	82%  {background-color: #ff00ff; color: #00ff00;}
+	100% {background-color: #ff0000; color: #00ffff;}
+}
+
+@keyframes linkcolor {
+	0%   {color: #ff0000}
+	16%  {color: #ffff00}
+	33%  {color: #00ff00}
+	49%  {color: #00ffff}
+	66%  {color: #0000ff}
+	82%  {color: #ff00ff}
+	100% {color: #ff0000}
+}
+
+@keyframes linkcolor2 {
+	0%   {color: #00ffff}
+	16%  {color: #0000ff}
+	33%  {color: #ff00ff}
+	49%  {color: #ff0000}
+	66%  {color: #ffff00}
+	82%  {color: #00ff00}
+	100% {color: #00ffff}
+}
+
+@keyframes steweemama{
+	0%   {color: #ff8000}
+	50%  {color: #008080}
+	100% {color: #ff8000}
+}
