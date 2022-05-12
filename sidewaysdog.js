@@ -44,6 +44,38 @@ function dogclick() {
 			document.getElementById("clickimg").src = "media/sidewaysdog3.png"
 			break;
 		case 3:
+			dogpicnum = 4;
+			document.getElementById("clickimg").src = "media/doggif1.gif"
+			break;
+		case 4:
+			dogpicnum = 5;
+			document.getElementById("clickimg").src = "media/dogdrop1.png"
+			break;
+		case 5:
+			dogpicnum = 6;
+			document.getElementById("clickimg").src = "media/dogdrop2.png"
+			break;
+		case 6:
+			dogpicnum = 7;
+			document.getElementById("clickimg").src = "media/dogdrop3.png"
+			break;
+		case 7:
+			dogpicnum = 8;
+			document.getElementById("clickimg").src = "media/dogdrop4.png"
+			break;
+		case 8:
+			dogpicnum = 9;
+			document.getElementById("clickimg").src = "media/dogdrop5.png"
+			break;
+		case 9:
+			dogpicnum = 10;
+			document.getElementById("clickimg").src = "media/dogspin.gif"
+			break;
+		case 10:
+			dogpicnum = 11;
+			document.getElementById("clickimg").src = "media/dogdrop6.png"
+			break;
+		case 11:
 			dogpicnum = 1;
 			document.getElementById("clickimg").src = "media/sidewaysdog1.png"
 			break;
