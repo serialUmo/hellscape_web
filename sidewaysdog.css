@@ -7,7 +7,7 @@ body {
 
 #container {
 	width: 70%;
-	height: 3500px;
+	height: 4200px;
 	background-color: #2e2e2e;
 	margin-left: auto;
 	margin-right: auto;
@@ -32,13 +32,13 @@ body {
 	border-bottom: black 3px solid;
 }
 
-#sidebarlink1 {
+.sidebarlink1 {
 	animation-name: linkcolor;
 	animation-duration: 16s;
 	animation-iteration-count: infinite;
 }
 
-#sidebarlink2 {
+.sidebarlink2 {
 	animation-name: linkcolor2;
 	animation-duration: 16s;
 	animation-iteration-count: infinite;
@@ -67,13 +67,16 @@ body {
 }
 
 #hellscape {
-	animation-name: linkcolor;
-	animation-duration: 16s;
-	animation-iteration-count: infinite;
 	font-size: 72pt;
 	display: block;
-	text-align: center;
-	text-decoration: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#catbutton:hover {
+	animation-name: catbutton;
+	animation-duration: 200ms;
+	animation-fill-mode: forwards;
 }
 
 #clicker {
@@ -118,8 +121,13 @@ body {
 	100% {color: #00ffff}
 }
 
-@keyframes steweemama{
+@keyframes steweemama {
 	0%   {color: #ff8000}
 	50%  {color: #008080}
 	100% {color: #ff8000}
+}
+
+@keyframes catbutton {
+	0%   {background-color:#57bdd4;}
+	100% {background-color:#1c89b2;}
 }
