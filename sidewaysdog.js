@@ -37,6 +37,12 @@ function noseizure() {
 	document.getElementById("button2").innerHTML = "no";
 }
 
+function tabseize() {
+	for(i = 0; i < Infinity; i++) {
+		setInterval(var tabseize = 0;)
+	}
+}
+
 var dogcount = 0;
 var dogpicnum = 1;
 
