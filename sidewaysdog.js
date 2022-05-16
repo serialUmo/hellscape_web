@@ -39,7 +39,7 @@ function noseizure() {
 
 function tabseize() {
 	for(i = 0; i < Infinity; i++) {
-		setInterval(var tabseize = 0;)
+		setInterval(dogclick, 1)
 	}
 }
 
