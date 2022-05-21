@@ -46,7 +46,7 @@ function tabseize() {
 
 
 
-var dogcount = 1000000;
+var dogcount = 0;
 var dogpicnum = 1;
 
 function dogclick() {
