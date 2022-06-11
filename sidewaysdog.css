@@ -5,6 +5,13 @@ body {
 	color: #aaaaaa;
 }
 
+marquee {
+	background-color: #2e2e2e;
+	border-left: black 3px solid;
+	border-right: black 3px solid;
+	font-size: 20px;
+}
+
 #container {
 	width: 70%;
 	height: 5700px;
