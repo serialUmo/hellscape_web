@@ -1,0 +1,114 @@
+body {
+	background-color: #181818;
+	background-image: url("media/bowlbg.png");
+	background-repeat: repeat;
+	color: #aaaaaa;
+}
+
+p {
+	padding-left: 10px;
+}
+
+table {
+	width: 100%;
+	border: solid 3px black;
+	border-collapse: collapse;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+th, tr {
+	border: solid 1px black;
+	color: #aaaaaa;
+	margin: 3px;
+	height: 180px;
+}
+
+button {
+	border: none;
+	width: 150px;
+	height: 159px;
+	animation-name: buttoncolor;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+}
+
+button > img {
+	width: 150px;
+	height: 150px;
+}
+
+#returnscape {
+	width: 60%;
+	height: auto;
+	background-color: #2e2e2e;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	border: black 3px solid;
+	text-align: center;
+}
+
+#container {
+	width: 70%;
+	height: 1200px;
+	background-color: #2e2e2e;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	border: black 3px solid;
+}
+
+#artdisplay {
+	width: 100%;
+	height: 100%;
+	border: solid 3px black;
+	border-collapse: collapse;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	background-color: rgba(51, 51, 51, 0.5);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+
+.rainbowlink {
+	animation-name: linkcolor;
+	animation-duration: 16s;
+	animation-iteration-count: infinite;
+}
+
+.seizurerainbowlink {
+	animation-name: linkcolor;
+	animation-duration: 100ms;
+	animation-iteration-count: infinite;
+}
+
+.artimg {
+}
+
+
+@keyframes linkcolor {
+	0%   {color: #ff0000}
+	16%  {color: #ffff00}
+	33%  {color: #00ff00}
+	49%  {color: #00ffff}
+	66%  {color: #0000ff}
+	82%  {color: #ff00ff}
+	100% {color: #ff0000}
+}
+
+@keyframes buttoncolor {
+	0%   {background-color: #ff0000}
+	16%  {background-color: #ffff00}
+	33%  {background-color: #00ff00}
+	49%  {background-color: #00ffff}
+	66%  {background-color: #0000ff}
+	82%  {background-color: #ff00ff}
+	100% {background-color: #ff0000}
+}
