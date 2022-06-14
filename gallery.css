@@ -85,7 +85,7 @@ button > img {
 
 .seizurerainbowlink {
 	animation-name: linkcolor;
-	animation-duration: 100ms;
+	animation-duration: 2000ms;
 	animation-iteration-count: infinite;
 }
 
