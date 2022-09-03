@@ -58,7 +58,7 @@ marquee {
 	color: #aaaaaa;
 }
 
-#stew {
+.stew {
 	animation-name: steweemama;
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
