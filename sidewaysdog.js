@@ -108,7 +108,9 @@ function tabseize() {
 	document.getElementById("hellscape").style.property = "font-size: 300pt; margin-left: 80%;";
 	document.getElementById("catbutton").style.property = "animation-name: linkcolor; animation-duration: 1s; animation-iteration-count: infinite;";
 	document.getElementById("clicker").style.property = "background-color: #778800; width: 70%;";
-	document.getElementById("marquee").style.property = "z-index: 1";
+	document.getElementById("submitmarquee1").style.property = "z-index: 1";
+	document.getElementById("submitmarquee2").style.property = "z-index: 1";
+	document.getElementById("submitmarquee3").style.property = "z-index: 1";
 }
 
 
