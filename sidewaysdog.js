@@ -36,7 +36,7 @@ var marqueearray = ["@everyone submit phrases for me to use in the website", "or
 "cat no ears cat staring into soul creepy img", "pxtone rules!!!!", "go play monolith: relics of the past", "go play zeroranger",
 "go play astronautilus", "hi :)", "what do you mean", "americans be eating cheesed burger", "fusk", "i'm so meta, even this archaism",
 "i have no mouse and i must meme", "also play hellscape!", "thanks javascript for not kicking my shit in today",
-"hi im the creator of this website. i hope you have a nice day", "piracy is protest, here's why: https://youtu.be/mnnYCJNhw7w",
+"hi im the creator of this website. i hope you have a nice day", "bleu", "glumbus", "pimbus for president",
 "pirate my code! also support me some way so i make more code or whatever else that you can pirate!!!",
 "take a shot every time you read 'join hell'", "join hell to be able to add to the possible things these marquees can say",
 "i like cats. do you like cats?", "https://youtu.be/GT5thic9BVQ", "https://youtu.be/GT5thic9BVQ", "https://youtu.be/GT5thic9BVQ",
@@ -87,9 +87,19 @@ function noseizure() {
 
 
 function tabseize() {
-	for(i = 0; i < Infinity; i++) {
-		setInterval(dogclick, 1)
-	}
+	document.getElementsByTagName("body").style.property = "background-image: url('favicon.png');";
+	document.getElementsByTagName("button").style.property = "width: 10000px; float: right;";
+	document.getElementsByTagName("image").style.property = "width: 10% height: 14%";
+	document.getElementById("sidebar").style.property = "float: right;";
+	document.getElementById("content").style.property = "float: left;";
+	document.getElementById("container").style.property = "width: 40%; margin: 0%; margin-left: 8% background-image: url('media/dice.gif');";
+	document.getElementById("container").style.property = "background-repeat: repeat; background-color: #aaaa99; animation-name: steweemama;";
+	document.getElementById("container").style.property = "animation-iteration-count: infinite; animation-duration: 4s; z-index: 0;";
+	document.getElementById("dogvid").style.property = "width: 300%;";
+	document.getElementById("hellscape").style.property = "font-size: 300pt; margin-left: 80%;";
+	document.getElementById("catbutton:hover").style.property = "animation-name: linkcolor; animation-duration: 1s; animation-iteration-count: 1;";
+	document.getElementById("clicker").style.property = "background-color: #778800; width: 70%;";
+	document.getElementById("marquee").style.property = "z-index: 1";
 }
 
 
