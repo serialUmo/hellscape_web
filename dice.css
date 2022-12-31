@@ -1,0 +1,48 @@
+html {
+	background-color: #111111;
+}
+
+div {
+	background-color: #999999;
+	margin: auto;
+	margin-top: 2%;
+	padding: 10px;
+	width: 60%;
+	
+}
+
+marquee {
+	background-color: #666666;
+}
+
+a:link{
+	color: #1881ae;
+}
+
+a:visited{
+	color: #1881ae;
+}
+
+a:hover{
+	color: #B84000;
+}
+
+a:active{
+	color: #ffbc79;
+}
+
+#output {
+	background-color: #000000;
+	color: #00aa00;
+	margin: 10px;
+	animation-name: terminal;
+	animation-duration: 66ms;
+	animation-iteration-count: infinite;
+	padding-left: 10px;
+	border: #222222 3px solid;
+}
+
+@keyframes terminal {
+	0%   {color: #009900}
+	100% {color: #00ee00}
+}

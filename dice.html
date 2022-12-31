@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<title>dice</title>
+	
+		<meta charset="UTF-8">
+		<meta name="description" content="dice">
+		<meta name="keywords" content="dice, rng">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+		<link rel="stylesheet" type="text/css" href="css/dice.css">
+	</head>
+	
+	<div>
+		<a href="nav.html">return?</a>
+	
+		<p>i used to roll the dice, now the coast's dice website is die<br>
+		and now i alone must suffer through.. writing js for my own use</p>
+		
+		<p>bet you're at least one of two things: confused, or a dnd player</p>
+		
+		<button onclick="dice(4)">d4</button>
+		<button onclick="dice(6)">d6</button>
+		<button onclick="dice(8)">d8</button>
+		<button onclick="dice(10)">d10</button>
+		<button onclick="dice(12)">d12</button>
+		<button onclick="dice(20)">d20</button>
+		<button onclick="dice(100)">d100</button>
+		<br><br>
+		<button onclick="customroll()">custom dice roll</button> d-<input type="number" placeholder="7" id="dval" name="dval" style="width: 50px;">
+		<br><br>
+		<button onclick="statroll()">roll me some stats (6 3d6 yeah i know it sucks)</button>
+		<br><br>
+		<button onclick="statroll20()">roll me some stats (6 d20)</button>
+		<br><br>
+		<button onclick="clearoutput()">clear output</button>
+		
+		<div id="output">
+			<p id="output2">
+			> rng machine
+			<br>
+			</p>
+		</div>
+	</div>
+	
+	<script src="js/dice.js"></script>
+</html>

@@ -1,0 +1,15 @@
+body{
+	margin: 30px;
+	font-family: Verdana;
+	width: 400px;
+}
+
+.errheader{
+	font-size: 18px;
+	padding-left: 33px;
+	padding-top: 5px;
+}
+
+.errtext{
+	font-size: 12px;
+}
