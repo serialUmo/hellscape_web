@@ -87,8 +87,23 @@ function noseizure() {
 
 
 function tabseize() {
-	document.getElementsByTagName("body").style.property = "background-image: url('favicon.png');";
-	document.getElementsByTagName("button").style.property = "width: 10000px; float: right;";
+	var bodyelements = document.getElementsByTagName("body");
+	for(var i = 0; i < bodyelements.length; i++)
+	{
+		document.getElementById(bodyelements.item(i)).style = "background-image: url('favicon.png');";
+	}
+	
+	var buttonelements = document.getElementsByTagName("button");
+	for(var i = 0; i < buttonelements.length; i++)
+	{
+		document.getElementById(buttonelements.item(i)).style = "width: 10000px; float: right;";
+	}
+	
+	var imageelements = document.getElementsByClassName("img");
+	for(var i = 0; i < imageelements.length; i++)
+	{
+		document.getElementById(imageelements.item(i)).style = "width: 10% height: 14%";
+	}
 	document.getElementsByTagName("image").style.property = "width: 10% height: 14%";
 	document.getElementById("sidebar").style.property = "float: right;";
 	document.getElementById("content").style.property = "float: left;";
