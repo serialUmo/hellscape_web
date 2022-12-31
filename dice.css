@@ -19,6 +19,12 @@ html {
 	text-align: center;
 }
 
+.rainbowlink {
+	animation-name: rainbowlink;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
 #dice {
 	background-color: #2e2e2e;
 	margin: auto;
