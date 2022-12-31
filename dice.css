@@ -33,22 +33,6 @@ marquee {
 	background-color: #666666;
 }
 
-a:link{
-	color: #1881ae;
-}
-
-a:visited{
-	color: #1881ae;
-}
-
-a:hover{
-	color: #B84000;
-}
-
-a:active{
-	color: #ffbc79;
-}
-
 #output {
 	background-color: #000000;
 	color: #00aa00;
