@@ -106,7 +106,7 @@ function tabseize() {
 	document.getElementById("container").style.property = "animation-iteration-count: infinite; animation-duration: 4s; z-index: 0;";
 	document.getElementById("dogvid").style.property = "width: 300%;";
 	document.getElementById("hellscape").style.property = "font-size: 300pt; margin-left: 80%;";
-	document.getElementById("catbutton:hover").style.property = "animation-name: linkcolor; animation-duration: 1s; animation-iteration-count: 1;";
+	document.getElementById("catbutton").style.property = "animation-name: linkcolor; animation-duration: 1s; animation-iteration-count: infinite;";
 	document.getElementById("clicker").style.property = "background-color: #778800; width: 70%;";
 	document.getElementById("marquee").style.property = "z-index: 1";
 }
