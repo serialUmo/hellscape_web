@@ -5,13 +5,28 @@ html {
 	color: #aaaaaa;
 }
 
-div {
+#returnscape {
+	background-color: #2e2e2e;
+	margin: auto;
+	margin-top: 2%;
+	margin-bottom: 0%;
+	padding: 10px;
+	width: 60%;
+	animation-name: rainbowlink;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	border: black 3px solid;
+	text-align: center;
+}
+
+#dice {
 	background-color: #2e2e2e;
 	margin: auto;
 	margin-top: 2%;
 	padding: 10px;
 	width: 60%;
-	
+	color: #aaaaaa;
+	border: black 3px solid;
 }
 
 marquee {
@@ -49,3 +64,14 @@ a:active{
 	0%   {color: #009900}
 	100% {color: #00ee00}
 }
+
+@keyframes rainbowlink {
+	0%   {color: #ff0000}
+	16%  {color: #ffff00}
+	33%  {color: #00ff00}
+	49%  {color: #00ffff}
+	66%  {color: #0000ff}
+	82%  {color: #ff00ff}
+	100% {color: #ff0000}
+}
+
