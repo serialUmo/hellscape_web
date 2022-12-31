@@ -87,8 +87,8 @@ function noseizure() {
 
 
 function tabseize() {
-	const buttons = getElementsByClassName("button");
-	const images = getElementsByClassName("img");
+	const buttons = document.getElementsByClassName("button");
+	const images = document.getElementsByClassName("img");
 	
 	for(let i = 0; i < buttons.length; i++){
 		buttons[i].style.width = "10000px;";
