@@ -87,24 +87,19 @@ function noseizure() {
 
 
 function tabseize() {
-	var bodyelements = document.getElementsByTagName("body");
-	for(var i = 0; i < bodyelements.length; i++)
-	{
-		document.getElementById(bodyelements[i]).style = "background-image: url('favicon.png');";
+	const buttons = getElementsByClassName("button");
+	const images = getElementsByClassName("img");
+	
+	for(let i = 0; i < buttons.length; i++){
+		buttons[i].style.width = "10000px;";
+	}
+	for(let i = 0; i < images.length; i++){
+		images[i].style.width = "10%";
+		images[i].style.height = "13%";
 	}
 	
-	var buttonelements = document.getElementsByTagName("button");
-	for(var i = 0; i < buttonelements.length; i++)
-	{
-		document.getElementById(buttonelements[i]).style = "width: 10000px; float: right;";
-	}
-	
-	var imageelements = document.getElementsByClassName("img");
-	for(var i = 0; i < imageelements.length; i++)
-	{
-		document.getElementById(imageelements[i]).style = "width: 10% height: 14%";
-	}
 	document.getElementsByTagName("image").style.property = "width: 10% height: 14%";
+	document.getElementById("body").style = "background-image: url('favicon.png');";
 	document.getElementById("sidebar").style.property = "float: right;";
 	document.getElementById("content").style.property = "float: left;";
 	document.getElementById("container").style.property = "width: 40%; margin: 0%; margin-left: 8% background-image: url('media/dice.gif');";
