@@ -98,19 +98,20 @@ function tabseize() {
 		images[i].style.height = "13%";
 	}
 	
-	document.getElementById("body").style = "background-image: url('media/favicon.png');";
+	document.getElementById("body").style.property = "background-image: url('media/favicon.png'); font-size: 100px; animation-name: steweemama;";
+	document.getElementById("body").style.property = "animation-duration: 1s; animation-iteration-count: infinite;";
 	document.getElementById("sidebar").style.property = "float: right;";
 	document.getElementById("content").style.property = "float: left;";
-	document.getElementById("container").style.property = "width: 40%; margin: 0%; margin-left: 8% background-image: url('media/dice.gif');";
+	document.getElementById("container").style.property = "width: 40%; margin: 0%; margin-left: 8%; background-image: url('media/dice.gif');";
 	document.getElementById("container").style.property = "background-repeat: repeat; background-color: #aaaa99; animation-name: steweemama;";
-	document.getElementById("container").style.property = "animation-iteration-count: infinite; animation-duration: 4s; z-index: 0;";
+	document.getElementById("container").style.property = "animation-iteration-count: infinite; animation-duration: 1s; z-index: 0;";
 	document.getElementById("dogvid").style.property = "width: 300%;";
 	document.getElementById("hellscape").style.property = "font-size: 300pt; margin-left: 80%;";
 	document.getElementById("catbutton").style.property = "animation-name: linkcolor; animation-duration: 1s; animation-iteration-count: infinite;";
 	document.getElementById("clicker").style.property = "background-color: #778800; width: 70%;";
-	document.getElementById("submitmarquee1").style.property = "z-index: 1";
-	document.getElementById("submitmarquee2").style.property = "z-index: 1";
-	document.getElementById("submitmarquee3").style.property = "z-index: 1";
+	document.getElementById("submitmarquee1").style.property = "z-index: 1;";
+	document.getElementById("submitmarquee2").style.property = "z-index: 1;";
+	document.getElementById("submitmarquee3").style.property = "z-index: 1;";
 }
 
 
