@@ -98,7 +98,7 @@ function tabseize() {
 		images[i].style.height = "13%";
 	}
 	
-	document.getElementById("body").style = "background-image: url('favicon.png');";
+	document.getElementById("body").style = "background-image: url('media/favicon.png');";
 	document.getElementById("sidebar").style.property = "float: right;";
 	document.getElementById("content").style.property = "float: left;";
 	document.getElementById("container").style.property = "width: 40%; margin: 0%; margin-left: 8% background-image: url('media/dice.gif');";
