@@ -4,8 +4,6 @@ get rid of the mess that is the marquee js so just
 ignore all the stuff that doesn't do anything. besides
 i want more than one place where i can go grab the 
 marquee code in case i want to use it somewhere again
-
-also hi. steal this code if you want to
 */
 var marqueearray = ["@everyone submit phrases for me to use in the website", "or images", "or whatever", "sideways dog", 
 "idc i'll use everything but specifically phrases", "KHOOKH", "this dog sideways as hell", "thats what im sayin",
