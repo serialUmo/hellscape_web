@@ -6,7 +6,7 @@ function mobile() {
 
 }
 
-var x = window.matchMedia("(max-width: 700px)");
+var x = window.matchMedia("(pointer:coarse)");
 mobile(x);
 
 
