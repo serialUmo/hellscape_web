@@ -5,6 +5,35 @@ html {
 	color: #aaaaaa;
 }
 
+#sidebar {
+	width: 15%;
+	height: 100%;
+	border-right: black 3px solid;
+	float: left;
+}
+
+#logo {
+	width: 100%;
+	padding-bottom: 10px;
+	animation-name: logo;
+	animation-duration: 16s;
+	animation-iteration-count: infinite;
+	text-align: center;
+	border-bottom: black 3px solid;
+}
+
+.sidebarlink1 {
+	animation-name: linkcolor;
+	animation-duration: 16s;
+	animation-iteration-count: infinite;
+}
+
+.sidebarlink2 {
+	animation-name: linkcolor2;
+	animation-duration: 16s;
+	animation-iteration-count: infinite;
+}
+
 #returnscape {
 	background-color: #2e2e2e;
 	margin: auto;
@@ -20,19 +49,32 @@ html {
 }
 
 .rainbowlink {
-	animation-name: rainbowlink;
+	animation-name: linkcolor;
 	animation-duration: 10s;
 	animation-iteration-count: infinite;
 }
 
-#dice {
+.rainbowlink2 {
+	animation-name: linkcolor2;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+#container {
 	background-color: #2e2e2e;
 	margin: auto;
 	margin-top: 2%;
-	padding: 10px;
 	width: 60%;
+	height: 1000px;
 	color: #aaaaaa;
 	border: black 3px solid;
+}
+
+#dice {
+	float: left;
+	width: 80%;
+	padding-top: 10px;
+	padding-left: 10px;
 }
 
 marquee {
@@ -55,7 +97,17 @@ marquee {
 	100% {color: #00ee00}
 }
 
-@keyframes rainbowlink {
+@keyframes logo {
+	0%   {background-color: #ff0000; color: #00ffff;}
+	16%  {background-color: #ffff00; color: #0000ff;}
+	33%  {background-color: #00ff00; color: #ff00ff;}
+	49%  {background-color: #00ffff; color: #ff0000;}
+	66%  {background-color: #0000ff; color: #ffff00;}
+	82%  {background-color: #ff00ff; color: #00ff00;}
+	100% {background-color: #ff0000; color: #00ffff;}
+}
+
+@keyframes linkcolor {
 	0%   {color: #ff0000}
 	16%  {color: #ffff00}
 	33%  {color: #00ff00}
@@ -65,3 +117,12 @@ marquee {
 	100% {color: #ff0000}
 }
 
+@keyframes linkcolor2 {
+	0%   {color: #00ffff}
+	16%  {color: #0000ff}
+	33%  {color: #ff00ff}
+	49%  {color: #ff0000}
+	66%  {color: #ffff00}
+	82%  {color: #00ff00}
+	100% {color: #00ffff}
+}
